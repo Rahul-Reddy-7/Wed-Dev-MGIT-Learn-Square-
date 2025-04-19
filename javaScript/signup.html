@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" href="style2.css">
+	<script>
+	function button1() {
+			alert('Registration completed')
+		}
+	</script>
+	<style>
+		h1{
+			text-align: center;
+			padding: 10px;
+			border-radius: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+	<h1 style="background-color: silver; color: black;"> Register/Signup Here </h1>
+			<form action="MainProfile.html" method="get">
+                <label for="first">
+                    Username:
+                </label>
+                <input type="text" id="first" name="first" 
+                    placeholder="Enter your Username" required>
+				<label for="first">
+                    First Name:
+                </label>
+                <input type="text" id="first" name="first" 
+                    placeholder="Enter your name" required>
+                <label for="first">
+                    Last Name:
+                </label>
+                <input type="text" id="first" name="first" 
+                    placeholder="Enter your Last name" required>    
+
+                <label for="password">
+                    Password:
+                </label>
+                <input type="password" id="password" name="password" 
+                    placeholder="Enter your Password" required>
+
+                <label for="password">
+                    Re-enter Password:
+                </label>
+                <input type="password" id="password" name="password" 
+                    placeholder="Re-Enter password for conformation" required>
+
+                <div class="wrap">
+                    <button type="submit" onclick="button1()">
+                        Register/Signup
+                    </button>
+                </div>
+            </form>
+        </div>
+
+</body>
+</html>
